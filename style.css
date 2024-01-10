@@ -1,0 +1,682 @@
+body {
+    background-color: rgba(39, 39, 39, 1);
+    font-style: 14px;
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+* {
+  
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+                                                          
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+.container {
+    margin: 0, 68px;
+    height: 1920px;
+   
+}
+
+
+.header_lng {
+text-transform: uppercase;
+margin-right: 310px;
+
+}
+
+.header_lng_active {
+    color: rgba(252, 213, 76, 1) !important
+   
+
+}
+
+.header_lng span {
+    color:  rgba(146, 146, 146, 1);
+    
+
+}
+
+
+.nav_link_active {
+    border-bottom: 1px solid rgba(252, 213, 76, 1) ;
+    color: rgba(252, 213, 76, 1);
+}
+
+
+header {
+    margin: 20px 0px 50px 0px;
+    
+    
+  
+}
+
+.logo {
+    margin-left:55px;
+    width: 100px; /* Устанавливайте нужную ширину логотипа */
+}
+
+        
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+
+}
+
+nav a {
+    color: #fff;
+    margin-right: 19px;
+    text-decoration: none;
+    
+    
+}
+
+
+
+.button-header {
+    background-color: rgba(252, 213, 76, 1);
+    padding: 12px 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+   right: -380px;
+   
+   
+}
+
+nav a:hover {
+    color: cyan;
+}
+
+.button-header:hover {
+    background-color: #fff;
+    color: aqua;
+}
+
+
+.image {
+    background-image: url(./images/kartinka1.svg);
+    top: 120px;
+    position: absolute;
+    left: 55px;
+    height: 971px;
+    width: 1802px
+    
+    
+
+
+}
+
+
+
+.image h1 {
+   color:  rgba(255, 255, 255, 1);
+   
+   top: 431px;
+   height: 190px;
+   width: 159px;
+   margin-left: 390px;
+                                                    
+    }
+    
+.image h2 {
+   width: 714px;
+   height: 301px;
+   top: 469px;
+   left: 442px;
+color: rgba(255, 255, 255, 1);
+margin-left: 400px;
+
+}
+
+.image h3 {
+    color:rgba(255, 255, 255, 1);
+    width: 141.32px;
+   height: 23px;
+    top: 696px;
+    margin-left: 400px;
+}
+
+.telephone {
+color:  rgba(255, 255, 255, 1);
+position: relative;
+right: -499px;
+}
+
+
+.image__blocks {
+     background: rgba(39, 39, 39, 1);
+    
+    top: 820px;
+    height: 150px;
+    width: 1080px;
+    position: absolute;
+    right: -80px;
+}
+
+
+.projects h2 {
+font-weight: 700;
+font-size: 48px;
+margin-top: -790px;
+
+}
+
+
+.project__blocks {
+    display: flex;
+    gap: 29px;
+    top: 77px;
+   
+}
+
+.nav_projects {
+    height: 21px;
+    top: 409px;
+    border-bottom: 1px solid rgba(252, 213, 76, 1) ;
+    color: rgba(252, 213, 76, 1);
+      
+}
+
+.nav__projects__active {
+    color: rgba(146, 146, 146, 1);
+
+}
+
+.text_active {
+   margin-left: 1068px;
+   margin-top: -850px;
+   
+}
+
+.slaider {
+    margin-top: 900px;
+    margin-left: -200px;
+}
+
+.text {
+    margin-top: -870px;
+    margin-left: 580px;
+}
+
+.photo {
+    margin-top: 100px;
+    position: absolute;
+    left: -25px;
+}
+
+.photo__active {
+position: absolute;
+left: 15px;
+}
+
+.text__active {
+    margin-top: 1200px;
+   margin-left: 400px;
+}
+
+.hotel__photo {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 400px;
+    
+}
+
+.hotel__photo2 {
+    position: absolute;
+    margin-left: 968px;
+    margin-top: 80px;
+}
+
+.text__engl {
+    margin-top: 480px;
+    margin-left: 400px;
+}
+
+.dosk__active {
+    margin-top: -1600px;
+    margin-left: -15px;
+   
+}
+
+.contact {
+    margin-top: -320px;
+    margin-left: 630px;
+}
+
+
+
+
+
+.nado__3 {
+    color: rgb(175, 175, 175);
+    width: 54%;
+    margin-top: 37px;
+}
+
+.nado__2 {
+    color: rgba(232, 232, 232, 1);
+    font-size: 70px;
+   
+}
+
+.nado__1 {
+    color:rgba(252, 213, 76, 1);
+    position: absolute;
+    margin-top: -50px;
+   
+
+}
+
+.image__blocks a {
+    position: absolute;
+    margin-top: -550px;
+    margin-left: -1470px;
+}
+
+
+.line__active {
+    
+    margin-top: -80px;
+}
+
+
+.text__1 {
+    font-size: 18px;
+    color: rgba(232, 232, 232, 0.849);
+    width: 543px;
+    height: 377px;
+    top: 4573px;
+    position: absolute;
+    margin-top: -85px;
+}
+
+.text__2 {
+    font-size: 18px;
+    color: rgba(232, 232, 232, 0.849);
+    position: absolute;
+    margin-left: 970px;
+    width: 543px;
+    height: 400px;
+    margin-top: -45px;
+}
+
+.palma__nado {
+    font-size: 70px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 200px;
+}
+.palma__nado2 {
+    color: rgba(146, 146, 146, 1);
+    font-size: 16px;
+    position: absolute;
+    margin-left: 950px;
+    width: 149px;
+    top: 50px;
+}
+
+
+
+
+
+
+.vse__photo {
+    display: flex;
+    margin-top: 30px;
+}
+
+.photo1,
+.photo2,
+.photo3 {
+    flex: 1;
+    margin-right: 30px;
+    position: relative; /* Добавляем позиционирование для позиционирования текста */
+}
+
+.photo1 img,
+.photo2 img,
+.photo3 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+}
+
+.photo1:hover img,
+.photo2:hover img,
+.photo3:hover img {
+    transform: scale(1.1);
+}
+
+
+
+.text-overlay,
+.text-overlay3 {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.text-inner {
+    padding: 20px;
+}
+
+.text-inner p {
+    margin: 0;
+}
+
+
+
+.data{
+    position: absolute;
+    margin-top: -330px;
+    margin-left: 30px;
+    
+}
+
+.data2 {
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 29px;
+    
+}
+
+.data3 {
+    position: absolute;
+    color: rgba(146, 146, 146, 1);
+    margin-top: -230px;
+    margin-left: 30px;
+
+}
+
+.data4 {
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 30px;
+    color: rgba(252, 213, 76, 1);
+
+}
+
+
+.palma {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.palma:hover {
+    color: #5fc3ca; /* Измените на любой цвет, который вы хотите использовать для подсветки */
+}
+
+
+
+
+/* .paul {
+    margin-top: 850px;
+    margin-left: 380px;
+}
+
+.robert {
+    margin-left: 1000px;
+    margin-top: -372px;
+} */
+
+
+
+
+.paul,
+.robert {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.paul:hover,
+.robert:hover {
+    transform: scale(1.1);
+   
+}
+
+
+
+
+
+
+
+
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    animation: scroll 10s linear infinite;
+}
+
+.slide {
+    flex: 0 0 80%;
+    margin-right: -10px;
+    margin-top: 880px;
+}
+
+.image-container {
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 40%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+@keyframes scroll {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-25%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translateX(-75%);
+    }
+}
+
+
+
+
+.line {
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: -80px;
+}
+
+
+
+
+.reservation-container {
+    border: 2px solid #c8db1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: -1700px;
+    margin-right: 25px;
+}
+
+.reservation-container h2 {
+    color: #333;
+    transition: color 0.5s ease-in-out; /* Плавная анимация цвета текста */
+}
+
+.reservation-container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: -200px;
+}
+
+.reservation-container label {
+    margin-bottom: 10px;
+    color: rgba(252, 213, 76, 1);
+    transition: color 0.5s ease-in-out; /* Плавная анимация цвета текста */
+}
+
+.reservation-container input {
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.reservation-container button {
+    background-color: rgba(252, 213, 76, 1);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; /* Плавная анимация цвета фона и текста кнопки */
+}
+
+.reservation-container button:hover {
+    background-color: #7d883c;
+}
+.reservation-container h2 {
+    margin-left: 820px;
+}
+
+
+  
+.last {
+    cursor: pointer;
+    /* Дополнительные стили для вашего блока, если необходимо */
+  }
+  
+  .last img {
+      position: absolute;
+      margin-top: 400px;
+     margin-left: 820px;
+          
+    width: 170px; /* Пример: задайте нужную ширину изображению */
+  }
+  
+
+
+
+
+.button-logo {
+  background-color: rgba(252, 213, 76, 1);
+  padding: 12px 14px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+ position: absolute;
+margin-top: 6000px;
+margin-left: 1600px;
+}
+
+
+.lastovai {
+    position: absolute;
+    margin-top: 820px;
+    margin-left: -80px;
+}
+
+.lastovai p{
+   color: rgb(197, 193, 193);
+   position: absolute;
+   margin-top:30px;
+   margin-left: 180px;
+}
+
+.face:hover img {
+    transform: scale(1.4); /* Увеличиваем размер изображения при наведении */
+  }
+
+.face {
+    margin: 10px; /* Опционально: добавим отступ вокруг изображения */
+    transition: transform 0.3s;
+
+
+
+    position: absolute;
+    margin-left: 1610px;
+    margin-top: 30px;
+}
+.twit:hover img {
+    transform: scale(1.4); /* Увеличиваем размер изображения при наведении */
+  }
+.twit{
+    margin: 10px; /* Опционально: добавим отступ вокруг изображения */
+    transition: transform 0.3s;
+    position: absolute;
+    margin-left: 1650px;
+    margin-top: 30px;
+}
+.you:hover img {
+    transform: scale(1.4); /* Увеличиваем размер изображения при наведении */
+  }
+.you{
+    margin: 10px; /* Опционально: добавим отступ вокруг изображения */
+    transition: transform 0.3s;
+    position: absolute;
+    margin-left: 1700px;
+    margin-top: 30px;
+}
+.insta:hover img {
+    transform: scale(1.4); /* Увеличиваем размер изображения при наведении */
+  }
+.insta{
+    margin: 10px; /* Опционально: добавим отступ вокруг изображения */
+    transition: transform 0.3s;
+    position: absolute;
+    margin-left: 1750px;
+    margin-top: 30px;
+}
+.in:hover img {
+    transform: scale(1.4); /* Увеличиваем размер изображения при наведении */
+  }
+.in{
+    margin: 10px; /* Опционально: добавим отступ вокруг изображения */
+    transition: transform 0.3s;
+    position: absolute;
+    margin-left: 1800px;
+    margin-top: 30px;
+}
+
+
+  
