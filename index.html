@@ -78,21 +78,21 @@ table {
 
 
 
-      .start-button {
-            display: inline-block;
-            width: 90px;
-            height: 086540
-            background-color: #e2e612;
-            color: #000; 
-            border-radius: 50%; 
-            cursor: pointer;
-            position: relative;
-            overflow: hidden;
-            position: absolute;
-           margin-left: -930px;
-           margin-top: 400px;
-            transition: background-color 0.3s ease;
-        }
+    .start-button {
+    display: inline-block;
+    width: 90px;
+    height: 86px; /* Исправлено значение height */
+    background-color: #e2e612;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative; /* Оставлено только одно свойство position */
+    overflow: hidden;
+    margin-left: -930px;
+    margin-top: 400px;
+    transition: background-color 0.3s ease;
+}
+
 
         .start-button:hover {
             background-color: #5fc3ca; 
@@ -122,16 +122,15 @@ table {
         <div class="container">
             <div class="header-inner">
             <div class="logo">
-                <img src="./images/Logo.svg" alt="DUBAI">
-             
-                
+                <a href="index.html">
+                <img src="./images/5.png" alt="DUBAI">
             </div>
            
              
           
 
             <nav>
-                <a class="nav_link_active">Buy</a>
+                <a class="nav_link_active" href="Buy.html">Buy</a>
                 <a href="#">Blog</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
