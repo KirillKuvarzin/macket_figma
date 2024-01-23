@@ -543,7 +543,7 @@ left: 15px;
 
 .reservation-container h2 {
     color: #333;
-    transition: color 0.5s ease-in-out; /* Плавная анимация цвета текста */
+    transition: color 0.5s ease-in-out; 
 }
 
 .reservation-container form {
@@ -555,7 +555,7 @@ left: 15px;
 .reservation-container label {
     margin-bottom: 10px;
     color: rgba(252, 213, 76, 1);
-    transition: color 0.5s ease-in-out; /* Плавная анимация цвета текста */
+    transition: color 0.5s ease-in-out; 
 }
 
 .reservation-container input {
@@ -570,7 +570,7 @@ left: 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; /* Плавная анимация цвета фона и текста кнопки */
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; 
 }
 
 .reservation-container button:hover {
@@ -584,7 +584,7 @@ left: 15px;
   
 .last {
     cursor: pointer;
-    /* Дополнительные стили для вашего блока, если необходимо */
+    
   }
   
   .last img {
@@ -592,7 +592,7 @@ left: 15px;
       margin-top: 400px;
      margin-left: 820px;
           
-    width: 170px; /* Пример: задайте нужную ширину изображению */
+    width: 170px; 
   }
   
 

@@ -16,26 +16,26 @@
 <body>
     <style>
 .project__block img {
-            width: 100%; 
-            height: auto; 
-            transition: transform 0.3s ease; 
+            width: 100%; /* Ширина изображения 100% от родительского блока */
+            height: auto; /* Сохранение пропорций */
+            transition: transform 0.3s ease; /* Плавное изменение масштаба при наведении */
         }
 
         .project__block:hover img {
-            transform: scale(1.1); 
+            transform: scale(1.1); /* Увеличение масштаба при наведении */
         }
 
 
         .hotel__photo img,
 .hotel__photo2 img {
-    width: 100%; 
-    height: auto; 
-    transition: transform 0.3s ease;
+    width: 100%; /* Ширина изображения 100% от родительского блока */
+    height: auto; /* Сохранение пропорций */
+    transition: transform 0.3s ease; /* Плавное изменение масштаба при наведении */
 }
 
 .hotel__photo:hover img,
 .hotel__photo2:hover img {
-    transform: scale(1.1); 
+    transform: scale(1.1); /* Увеличение масштаба при наведении */
 }
 
 
@@ -70,7 +70,7 @@ table {
 
 
     th:hover {
-      color: #5fc3ca; 
+      color: #5fc3ca; /* Изменяем цвет при наведении на заголовок */
     }
 
 
@@ -78,59 +78,60 @@ table {
 
 
 
-    .start-button {
-    display: inline-block;
-    width: 90px;
-    height: 86px; /* Исправлено значение height */
-    background-color: #e2e612;
-    color: #000;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative; /* Оставлено только одно свойство position */
-    overflow: hidden;
-    margin-left: -930px;
-    margin-top: 400px;
-    transition: background-color 0.3s ease;
-}
-
+      .start-button {
+            display: inline-block;
+            width: 90px; /* Диаметр круга */
+            height: 90px; /* Диаметр круга */
+            background-color: #e2e612; /* Желтая оболочка */
+            color: #000; /* Черный цвет текста */
+            border-radius: 50%; /* Радиус скругления для создания круга */
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            position: absolute;
+           margin-left: -930px;
+           margin-top: 400px;
+            transition: background-color 0.3s ease;
+        }
 
         .start-button:hover {
-            background-color: #5fc3ca; 
+            background-color: #5fc3ca; /* Изменение цвета фона при наведении */
         }
 
         .start-button::before {
-            content: "▼"; 
+            content: "▼"; /* Черный треугольник внутри круга */
             font-size: 20px;
             line-height: 60px;
             text-align: center;
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%) rotate(28deg);
+            transform: translate(-50%, -50%) rotate(28deg); /* Центрирование и поворот на 90 градусов */
         }
-        
+        /* Добавьте стили для наведения на текст и элементы */
         h1, h2, a, .telephone a, .header_lng span {
             cursor: pointer;
             transition: color 0.3s ease-in-out;
         }
 
         h1:hover, h2:hover, a:hover, .telephone a:hover, .header_lng span:hover {
-            color: #5fc3ca;; 
+            color: #5fc3ca;; /* Цвет при наведении */
         }
     </style>
     <header>
         <div class="container">
             <div class="header-inner">
             <div class="logo">
-                <a href="index.html">
-                <img src="./images/5.png" alt="DUBAI">
+                <img src="./images/Logo.svg" alt="DUBAI">
+             
+                
             </div>
            
              
           
 
             <nav>
-                <a class="nav_link_active" href="Buy.html">Buy</a>
+                <a class="nav_link_active">Buy</a>
                 <a href="#">Blog</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
