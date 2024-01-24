@@ -15,6 +15,69 @@
 </head>
 <body>
     <style>
+
+
+ .button-header {
+        margin-left: -200px;
+      }
+
+      .telephone {
+        margin-left: 220px;
+      }
+
+      .header_lng {
+        margin-left: 520px;
+      }
+
+  /* Rest of your existing styles remain unchanged */
+
+  /* Add this style to adjust the position of the table */
+  table {
+    margin-top: 0; /* Adjust the margin-top as needed */
+    margin-left: 20px; /* Adjust the margin-left as needed */
+  }
+
+  .log__reg {
+          margin-left: 200px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px; /* Adjust the width as needed */
+            margin: auto;
+        }
+
+        /* Your existing input styles remain unchanged */
+
+        @media screen and (max-width: 600px) {
+            /* Add styles for smaller screens */
+
+            .log__reg {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            table {
+                width: 80%; /* Adjust the width for smaller screens */
+            }
+
+            /* Add other responsive styles as needed */
+        }
+
+
+
+
+
+
+
+
+
 .project__block img {
             width: 100%; /* Ширина изображения 100% от родительского блока */
             height: auto; /* Сохранение пропорций */
@@ -121,8 +184,12 @@ table {
     <header>
         <div class="container">
             <div class="header-inner">
+                <div class="log__reg">
+                <a class="button-header" href="registration.html">Registration</a>
+                <a class="button-header" href="login.html">Login</a>
+                </div>
             <div class="logo">
-                <img src="./images/Logo.svg" alt="DUBAI">
+                <img src="./images/5.png" alt="DUBAI">
              
                 
             </div>

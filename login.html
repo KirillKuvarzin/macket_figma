@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">          
+   <link rel="stylesheet" href="style.css"/>
+   <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/space-grotesk" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/work-sans" rel="stylesheet">
+
+    <title>Дубай</title>
+  </head>
+  <body>
+    <style>
+      .button-header {
+        margin-left: -200px;
+      }
+
+      .telephone {
+        margin-left: 220px;
+      }
+
+      .header_lng {
+        margin-left: 520px;
+      }
+
+      /* Rest of your existing styles remain unchanged */
+
+      /* Add this style to adjust the position of the table */
+      table {
+        margin-top: 0; /* Adjust the margin-top as needed */
+        margin-left: 20px; /* Adjust the margin-left as needed */
+      }
+
+      body {
+        background-color: rgba(39, 39, 39, 1);
+        font-style: 14px;
+        font-weight: 300;
+      }
+
+      form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 250px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 150%; /* Adjust the width as needed */
+            margin: auto;
+        }
+
+        /* Your existing input styles remain unchanged */
+
+        @media screen and (max-width: 600px) {
+            /* Add styles for smaller screens */
+            table {
+                width: 80%; /* Adjust the width for smaller screens */
+            }
+        }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        width: calc(100% - 20px); /* Adjust the width and padding as needed */
+        padding: 8px;
+        box-sizing: border-box;
+        background-color: transparent; /* Set background to transparent */
+        border: 1px solid #ddd; /* Add border for better visibility */
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+    h1, h2, a, .telephone a, .header_lng span {
+            cursor: pointer;
+            transition: color 0.3s ease-in-out;
+        }
+
+        h1:hover, h2:hover, a:hover, .telephone a:hover, .header_lng span:hover {
+            color: #5fc3ca;; /* Цвет при наведении */
+        }
+    
+
+        
+    </style>
+    <header>
+      <div class="container">
+        <div class="header-inner">
+          <div class="logo">
+            <img src="./images/5.png" alt="DUBAI" />
+          </div>
+
+          <nav>
+            <a class="nav_link_active" href="Buy.html">Buy</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </nav>
+          <a class="button-header" href="#">Book a consultation</a>
+          <div class="telephone">
+            <a>+7 (212) 674-25-10</a>
+          </div>
+          <div class="header_lng">
+            <span class="header_lng_active">En</span>
+            <span>Ru</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="image2"></div>
+      <div class="container2">
+        <h2 style="position: absolute; margin-left: 300px; margin-top: -70px">
+         
+        </h2>
+        <form action="login_process.php" method="post">
+            <table>
+                <tr>
+                    <th colspan="2">Login</th>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Login"></td>
+                </tr>
+            </table>
+      </div>
+      <div class="last">
+            <a href="#" class="last">
+            <img src="./images/Logo.svg" alt="Logo">
+            </a>
+        </div>
+        </div>
+        <table>
+            <thead>
+              <tr>
+                <th>Buy</th>
+                <th>Services</th>
+                <th>Information</th>
+                <th>About company</th>
+                <th>Contact</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apartment in Dubai</td>
+                    <td>Property management in Dubai, UAE</td>
+                    <td>Video</td>
+                    <td>Jobs </td>
+                    <td>964 Worthington Drive</td>
+                  </tr>
+
+
+                  <tr>
+                    <td>House in Dubai</td>
+                    <td>Sell property in Dubai, UAE</td>
+                    <td>Podcasts</td>
+                    <td>Story</td>
+                    <td>Dubai, UAE</td>
+                  </tr>
+
+
+                  <tr>
+                    <td>Apartments in Dubai</td>
+                    <td>Rent property in Dubai, UAE</td>
+                    <td>Laws</td>
+                    <td>Licenses</td>
+                    <td>dubairealty@mail.com</td>
+                  </tr>
+
+                  <tr>
+                    <td>Loft in Dubai</td>
+                    <td>Investments in Dubai, UAE</td>
+                    <td>Questions and answers</td>
+                    <td>Why are we</td>
+                  </tr>
+
+                  <tr>
+                    <td>Penthouse in Dubai</td>
+                    <td>Real estate for cryptocurrency in Dubai</td>
+                    <td>Books</td>
+                    <td>Real estate agency</td>
+                  </tr>
+
+                  <tr>
+                    <td>Villa in Dubai</td>
+                    <td>Moving to Dubai, UAE</td>
+                    <td>Articles</td>
+                  </tr>
+                  <div class="lastovai">
+                    <img src="./images/line__last.svg" alt="">
+                    <p>Copyright © 2022 Dubai Realty</p>
+                    <div class="face">
+                        <img src="./images/facebook.svg" alt="">
+                    </div>
+                    <div class="twit">
+                        <img src="./images/Twitter.svg" alt="">
+                    </div>
+                    <div class="you">
+                        <img src="./images/youtube.svg" alt="">
+                    </div>
+                    <div class="insta">
+                        <img src="./images/instagram.svg" alt="">
+                    </div>
+                    <div class="in">
+                        <img src="./images/in.svg" alt="">
+                    </div>
+                    </div>
+                </div>
+            </tbody>
+          </table>
+        </div>
+      
+        <nav>
+            <a class="nav_logo_active"></a>
+        </nav>
+        <a class="button-logo" href="#">Book a consultation</a>
+        </main>
+           
+            
+            
+        </div>
+    </main>
+  </body>
+</html>
